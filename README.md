@@ -1,13 +1,13 @@
 # Cinzia Loi - Portfolio Task
 
-[My portfolio site]( {{ link_to_your_site }} )
+SheCodes Portfolio ( https://cinzialoi.github.io/SheCodes_Portfolio/index.html )
 
 ## Project Requirements
 
 ### Content
 {{ Add a short paragraph describing the features below. }}
 - [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
+- [x] Biography (at least 100 words)
 - [ ] Functional Contact Form
 - [x] "Projects" section
 - [ ] Links to external sites, e.g. GitHub and LinkedIn.
