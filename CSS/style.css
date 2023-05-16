@@ -276,3 +276,7 @@ footer {
 
 /* My Story page */
 
+.mystorysection {
+    width: 90%;
+    border: red 2px bold;
+}
