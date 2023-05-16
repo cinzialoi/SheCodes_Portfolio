@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS\style.css">
+    <title>Cinzia's First</title>
+</head>
+<body>
+    <header> 
+        <div class="mobile-header">
+            <a href = "index.html" class="logo">Cinzia</a>
+            <button class="hamburger-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hamburger-icon">
+                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li>
+                    <a href = "/Portfolio/my-story.html" >My story</a>
+                </li>
+                <li>
+                    <a href = "/Portfolio/my-work.html" >My work</a>
+                </li>
+                <li>
+                    <a href = "" >Get in touch</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="mobile-nav display-none">
+            <ul>
+                <li>
+                    <a href = "/Portfolio/my-story.html" >My story</a>
+                </li>
+                <li>
+                    <a href = "/Portfolio/my-work.html" >My work</a>
+                </li>
+                <li>
+                    <a href = "" >Get in touch</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="description"> 
+            <h1 class="name">Cinzia Loi</h1>
+            <h2>From zero to <span class="hero-accent">shero</span> this.</h2>
+        </div>
+        <div class="image-container">
+            <img src="Images/Placeholder-shrug.jpg" alt="Picture of me shrugging" id="shrug">
+        </div>
+    </section>
+    <section id="my-work" class="my-work">
+        <div class="background"></div>
+        <div>
+        <a href="ThisIsGoingToBeTheMyWorkLink">Check out my work</a>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Let's chat</h2>
+        <form action="">
+            <label for="your-name">Your name</label>
+                <input type="text" id ="your-name">
+                <label for="your-email">Your email</label>
+                <input type="text" id ="your-email">
+                <label for="your-message">Your message</label>
+                <textarea name ="message-text" id ="your-message"></textarea>
+                <input type="submit" value="Submit" class>
+        </form>
+    </section>
+    <footer>
+        <small>Website made with ♥ by <a href="linkedin">Cinzia</small>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>

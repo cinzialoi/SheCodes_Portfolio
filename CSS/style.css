@@ -1,0 +1,278 @@
+Base HTML Styles
+
+:root {
+	--pink: #f38fb1;
+	--yellow: #f4d040;
+	--green: #57d68d;
+	--blue: #5dade2;
+	--black: #111111;
+	--gray: #c3c3c3;
+}
+
+/* CSS Reset */
+
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--black);
+	scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Global Styles */
+
+label, input, textarea, select {
+    display: block;
+    width: 100%;
+}
+
+input, select, textarea {
+    padding: 8px
+}
+
+/* Header */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid #eee;
+    background-color: #5dade2;
+}
+
+.desktop-nav {
+    display: none;
+} 
+
+header button {
+    all: unset;
+}
+
+h2 {
+    white-space: nowrap;
+}
+
+.mobile-nav a {
+    text-decoration: none;
+    color: var(--black);
+    display: block;
+    padding: 4px 16px;
+}
+
+@media (min-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .desktop-nav {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    header a {
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    nav {
+        display: inline-block;
+    }
+    .hamburger-icon {
+        display: none;
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 24px;
+        margin-right: 16px;
+    }
+}
+
+.logo, .hamburger-icon {
+    height: 50px;
+}
+
+.logo{
+    text-decoration: none;
+    color: var(--black);
+    display: block;
+    padding: 4px 16px;
+    font-size: 2.5rem;
+}
+
+.mobile-header {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Hero */
+
+.hero {
+    max-width: 90%;
+    max-height: 700px;
+    margin: auto;
+}
+
+#shrug {
+    object-fit: contain;
+}
+
+.hero-accent {
+    text-decoration:line-through;
+    color: #f38fb1;
+}
+
+@media  (min-width: 768px) {
+    .hero {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+}
+
+    /* my work section */
+
+#my-work a {
+    text-decoration: none;
+    color: var(--black);
+    display: block;
+    padding: 4px 16px;
+}
+
+#my-work {
+    height: 15rem;
+    max-width: 90%;
+    margin: auto;
+    background-color: #0a3e5e;
+    background-image: url("../Images/PH-mywork-bg.jpg");
+    background-size: cover;
+    /* background-image: url("Portfolio\Images\PH-mywork-bg.jpg") <-- this was the wrong thing*/
+}
+
+    /* Contact Section */
+
+#contact {
+    /* this line below was causing trouble for some reason. Why? */
+    height: 45px; 
+    height: 600px;
+    max-width: 50%;
+    margin: 16px auto;
+}
+
+#contact input, #contact select {
+    margin-bottom: 16px;
+}
+
+#contact h2 {
+    margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+    #contact h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    #contact form {
+        max-width: 60%;
+        margin: 40px auto;
+    }
+}
+
+/* Cannot make the Submit turn pink */
+#contact input[type = "submit"] {  
+    background-color: var(--pink);
+    border: 0;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    padding: 16px;
+    text-align: center;
+}
+
+/* Utilities */
+
+.display-none {
+    display: none;
+}
+
+
+/* My project Page 2 */
+
+#work-description {
+    max-width: 90%;
+    margin: auto;
+}
+
+#project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-box {
+    max-width: 90%;
+    margin: 8px 16px;
+}
+
+@media (min-width: 768px){
+    #project-list{
+        margin: 16 32;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 33%;
+        justify-content: center;
+    }
+}
+
+/* My Story page */
+
