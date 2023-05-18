@@ -224,8 +224,8 @@ h2 {
 }
 
 /* Cannot make the Submit turn pink */
-#contact input[type = "submit"] {  
-    background-color: var(--pink);
+#contact input[type="submit"] {  
+    background-color: #f38fb1;
     border: 0;
     margin-top: 8px;
     cursor: pointer;
@@ -279,4 +279,10 @@ footer {
 .mystorysection {
     width: 90%;
     border: red 2px bold;
+}
+
+/* contact page */
+
+.contact-list {
+
 }
