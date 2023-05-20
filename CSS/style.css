@@ -298,8 +298,17 @@ footer {
 
 .mystorysection {
     max-width: 90%;
-    max-height: 700px;
+    max-height: 90%;
     margin: auto;
+}
+
+#photo-container {
+    height: 300px;
+}
+
+.msimage {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 @media (min-width: 768px) {
