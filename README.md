@@ -36,5 +36,31 @@ I have included a dynamic menu for mobile/desktop to allow for better accessibil
 >
 > You can do this by saving the images in a folder in your repo, and includingthem in your readme document with the following Markdown code:
 
-#### {{ image_title }}
+#### Home page
+>On Desktop
+![ This is the Home page on Desktop ](./Stuff%20for%20this%20project/Home1DT.png)
+![](./Stuff%20for%20this%20project/Home2DT.png)
+>On Mobile
+![ This is the Home page on Mobile ](./Stuff%20for%20this%20project/Home1MB.png)
+![  ](./Stuff%20for%20this%20project/Home2MB.png)
+
+#### My work page
+>On Desktop
+![ This is the My Work page on Desktop ](./Stuff%20for%20this%20project/MyWork1DT.png)
+![ This is the My Work page on Desktop ](./Stuff%20for%20this%20project/MyWork2DT.png)
+
+>On Mobile
+![ This is the My Work page on Mobile ](./Stuff%20for%20this%20project/MyWork1MB.png)
+![ This is the My Work page on Mobile ](./Stuff%20for%20this%20project/MyWork2MB.png)
+
+#### My story page
+>On Desktop
+![ This is the My Story page on Desktop ](./Stuff%20for%20this%20project/MyStory.png)
+>On Mobile
+![ This is the My Story page on Mobile ](./Stuff%20for%20this%20project/MyStoryMB.png)
+
+#### Contact page
+>On Desktop
 ![ This is the Contact page on Desktop ](./Stuff%20for%20this%20project/ContactDT.png)
+>On Mobile
+![ This is the Contact page on Mobile ](./Stuff%20for%20this%20project/ContactMB.png)
