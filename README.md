@@ -37,4 +37,4 @@ I have included a dynamic menu for mobile/desktop to allow for better accessibil
 > You can do this by saving the images in a folder in your repo, and includingthem in your readme document with the following Markdown code:
 
 #### {{ image_title }}
-![ {{ Description of image }} ]( {{ d }} )
+![ This is the Contact page on Desktop ](./Stuff%20for%20this%20project/ContactDT.png)
