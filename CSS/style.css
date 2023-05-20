@@ -158,8 +158,12 @@ h2 {
     margin: auto;
 }
 
+.description h1 {
+    font-size: 45px;
+}
+
 #shrug {
-    object-fit: contain;
+    height: 30%;
 }
 
 .hero-accent {
@@ -170,7 +174,7 @@ h2 {
 @media  (min-width: 768px) {
     .hero {
         display: flex;
-        justify-content:center;
+        justify-content:space-between;
         align-items: center;
     }
 }
@@ -182,6 +186,10 @@ h2 {
     color: var(--black);
     display: block;
     padding: 4px 16px;
+}
+
+.work-description-bg {
+    height 20px;
 }
 
 #my-work {
@@ -199,7 +207,7 @@ h2 {
 #contact {
     /* this line below was causing trouble for some reason. Why? */
     height: 45px; 
-    height: 600px;
+    height: 500px;
     max-width: 50%;
     margin: 16px auto;
 }
@@ -259,8 +267,20 @@ footer {
 }
 
 .project-box {
-    max-width: 90%;
-    margin: 8px 16px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16 32;
+}
+
+@media  (max-width: 768px) {
+    .project-box {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 768px){
@@ -277,12 +297,21 @@ footer {
 /* My Story page */
 
 .mystorysection {
-    width: 90%;
-    border: red 2px bold;
+    max-width: 90%;
+    max-height: 700px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .mystorysection {
+        align-items: center;
+    }
 }
 
 /* contact page */
 
-.contact-list {
-
+#social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
